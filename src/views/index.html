@@ -9,5 +9,24 @@
 </head>
 <body>
     <h1>hello</h1>
+    <h2 id="h2"></h2>
+    <h3 id="h3"></h3>
+    <script>
+        const h2 = document.getElementById('h2');
+        const h3 = document.getElementById('h3')
+        h2.innerText = `Chrome v(${versions.chrome()})`
+
+        const msg = async () => {
+            const res = await window.versions.ping();
+            h3.innerText = res;
+        }
+        msg();
+
+        const getDevices = async () => {
+            const res = await window.versions.getDevice();
+            console.log(res, 'device number');
+        }
+        getDevices();
+    </script>
 </body>
 </html>
