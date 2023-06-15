@@ -1,5 +1,6 @@
 {
   "name": "learn-electron",
+  "productName": "录屏小弟",
   "version": "1.0.0",
   "description": "学习electron",
   "main": "main.js",
@@ -21,9 +22,12 @@
     "electron": "^23.1.2"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "crawler": "^1.4.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "engines": {
-    "node": "16.10.0"
+    "node": "16.14.0"
   }
 }

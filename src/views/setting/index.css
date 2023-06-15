@@ -1,0 +1,13 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #098bc7;
+}
+.header {
+    height: 45px;
+    background-color: rgb(32,33,36);
+    -webkit-app-region: drag;
+}
+.header button {
+    -webkit-app-region: no-drag;
+}
